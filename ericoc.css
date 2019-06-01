@@ -1,30 +1,17 @@
-
 body {
     background-color:    #fff;
     font-family:         'Open Sans', sans-serif;
 }
 
-h1 {
-    margin:             auto;
-    text-align:         center;
-    font-size:          5em;
-    color:              #000;
-    text-decoration:    none;
-}
-
-h2 {
-    font-family:    'Roboto';
-    font-size:      1.25em;
-}
-
 h3 {
-    font-family:    'Roboto';
+    font-family:    'Roboto', sans-serif;
     font-size:      1.1em;
     color:          #000;
 }
 
 #logo {
-    margin-top:     1em;
+    font-size:      2em;
+    text-align:     center;
     font-family:    'Permanent Marker', sans-serif;
 }
 
@@ -33,63 +20,34 @@ h3 {
     text-decoration:    none;
 }
 
-#nav {
-    width:          75%;
+#content {
+    width:  70%;
+    margin: auto;
+}
+
+#content a:link, #logoblue {
+    color:  #4da0ff;
+}
+
+#content a:hover, a:active, a:visited {
+    color:  #104e8b;
+}
+
+#resumelinks {
+    font-size:      1.1em;
     margin:         auto;
     text-align:     center;
     font-family:    'Roboto';
 }
 
-#resformats ul {
-    display:    inline;
-    list-style: none;
-    text-align: center;
+#resumeformats li {
+    display:        inline;
+    list-style:     none;
+    padding-left:   1em;
+    padding-right:  1em;
 }
 
-#navlist li a {
-    color:               #4da0ff;
-    background-color:    #fff;
-    border:              2px solid #104e8b;
-    margin-left:         1px;
-    margin-right:        1px;
-    padding-bottom:      3px;
-    padding-right:       10px;
-    padding-left:        10px;
-    padding-top:         5px;
-    text-decoration:     none;
-    font-weight:         bold;
-}
-
-#navlist li a:hover {
-    background-color:    #4da0ff;
-    color:               #fff;
-}
-
-#navlist li a#current {
-    background-color:    #fff;
-    border-bottom:       2px solid #fff;
-    color:               #4da0ff;
-}
-
-#content {
-    width:     75%;
-    margin:    auto;
-}
-
-#content a:link, #logoblue {
-    color:    #4da0ff;
-}
-
-#content a:hover, a:active, a:visited {
-    color:    #104e8b;
-}
-
-#content h2:target::before {
-    color:      #4da0ff;
-    content:    "►";
-    font-size:  0.75em;
-}
-
-.middle {
-    text-align:    center;
+#resumeformats li a {
+    color:              #4da0ff;
+    text-decoration:    none;
 }
