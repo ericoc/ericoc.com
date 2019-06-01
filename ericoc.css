@@ -21,8 +21,15 @@ h3 {
 }
 
 #content {
-    width:  70%;
+    width:  80%;
     margin: auto;
+}
+
+@media screen and (min-width: 60em) {
+    #content {
+        width: 50%;
+        margin: auto;
+    }
 }
 
 #content a:link, #logoblue {
