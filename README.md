@@ -1,3 +1,3 @@
-# [static.ericoc.com](https://static.ericoc.com/)
+# [ericoc.com](https://ericoc.com/)
 
-Just a one-page static version of my website.
+Just a simple one-page static page of my resume.
