@@ -1,6 +1,6 @@
 body {
     background-color:   #fff;
-    font-family:        'Open Sans', sans-serif;
+    font-family:        Arial, 'Open Sans', sans-serif;
 }
 
 .logo, .logo a {
@@ -21,7 +21,7 @@ a:hover, a:active, a:visited {
 
 h2 {
     color:          #000;
-    font-family:    'Roboto', sans-serif;
+//    font-family:    Arial, 'Roboto', sans-serif;
     font-size:      1.1em;
 }
 
@@ -38,7 +38,7 @@ h2 {
 }
 
 .middle {
-    font-family:    'Roboto', sans-serif;
+//    font-family:    'Roboto', sans-serif;
     font-size:      1.1em;
     margin:         auto;
     text-align:     center;
