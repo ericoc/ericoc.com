@@ -6,8 +6,7 @@
                     local('PermanentMarker-Regular'),
                     url('logo.woff')    format('woff'),
                     url('logo.woff2')   format('woff2'),
-                    url('logo.ttf')     format('truetype'),
-                    url('logo.svg#PermanentMarkerRegular')  format('svg');
+                    url('logo.ttf')     format('truetype');
 }
 
 body {
