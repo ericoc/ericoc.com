@@ -3,20 +3,6 @@ body {
     font-family:        'Open Sans', sans-serif;
 }
 
-h2 {
-    color:          #000;
-    font-family:    'Roboto', sans-serif;
-    font-size:      1.1em;
-}
-
-a:link {
-    color:  #4da0ff;
-}
-
-a:hover, a:active, a:visited {
-    color:  #104e8b;
-}
-
 .logo, .logo a {
     color:              #104e8b;
     font-family:        'Permanent Marker', sans-serif;
@@ -25,8 +11,18 @@ a:hover, a:active, a:visited {
     text-decoration:    none;
 }
 
-.logoblue {
+a:link, .logoblue {
     color:  #4da0ff;
+}
+
+a:hover, a:active, a:visited {
+    color:  #104e8b;
+}
+
+h2 {
+    color:          #000;
+    font-family:    'Roboto', sans-serif;
+    font-size:      1.1em;
 }
 
 .content {
