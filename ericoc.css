@@ -17,7 +17,7 @@ a:hover, a:active, a:visited {
     color:  #104e8b;
 }
 
-.logo {
+.logo, .logo a {
     color:              #104e8b;
     font-size:          1.5em;
     text-align:         center;
