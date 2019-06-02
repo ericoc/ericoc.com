@@ -4,9 +4,9 @@ body {
 }
 
 h2 {
+    color:          #000;
     font-family:    'Roboto', sans-serif;
     font-size:      1.1em;
-    color:          #000;
 }
 
 a:link {
@@ -19,9 +19,9 @@ a:hover, a:active, a:visited {
 
 .logo, .logo a {
     color:              #104e8b;
+    font-family:        'Permanent Marker', sans-serif;
     font-size:          1.25em;
     text-align:         center;
-    font-family:        'Permanent Marker', sans-serif;
     text-decoration:    none;
 }
 
