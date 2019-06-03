@@ -31,21 +31,6 @@ a:hover, a:active, a:visited {
     color:  #104e8b;
 }
 
-h2 {
-    font-size:  1.1em;
-}
-
-h3, h4, h5 {
-    font-size:      1em;
-    font-weight:    normal;
-    margin:         0;
-    padding:        0;
-}
-
-h4 {
-    font-style:     italic;
-}
-
 .content {
     margin: auto;
     width:  80%;
@@ -64,6 +49,21 @@ h4 {
     text-align: center;
 }
 
-.resumes {
-    word-spacing:   1.5em;
+h2 {
+    font-size:  1.1em;
+}
+
+h3, h4, h5 {
+    font-size:      1em;
+    font-weight:    normal;
+    margin:         0;
+    padding:        0;
+}
+
+h4 {
+    font-style:     italic;
+}
+
+.wide {
+    word-spacing:   0.75em;
 }
