@@ -53,14 +53,6 @@ h2 {
     text-align: center;
 }
 
-.resumes ul {
-    margin:     0;
-    padding:    0;
-}
-
-.resumes li {
-    display:        inline;
-    list-style:     none;
-    padding-left:   1em;
-    padding-right:  1em;
+.resumes {
+    word-spacing:   1.5em;
 }
