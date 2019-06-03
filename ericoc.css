@@ -53,6 +53,10 @@ h2 {
     text-align: center;
 }
 
+.resumes ul {
+    padding-left: 0;
+}
+
 .resumes li {
     display:        inline;
     list-style:     none;
