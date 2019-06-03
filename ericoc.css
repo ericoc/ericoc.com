@@ -36,12 +36,17 @@ h2 {
 }
 
 h3, h5 {
+    font-size:      1em;
     font-weight:    normal;
+    margin:         0;
+    padding:        0;
 }
 
 h4 {
     font-style:     italic;
     font-weight:    normal;
+    margin:         0;
+    padding:        0;
 }
 
 .content {
