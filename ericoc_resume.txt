@@ -36,6 +36,8 @@ Thomas Jefferson University Hospital (IS&T)     Philadelphia, PA
 Linux Systems Administrator                     April 2018 - February 2020
 
 - Assisted a small team in maintaining the configuration, reliability, and security of approximately 500 very unique Linux servers which hosted research, medical, pharmaceutical and academic data for the hospital and university
+- Managed VMware data stores, volumes, and virtual machines on network storage regularly
+- Deployed SolarWinds monitoring agents throughout the infrastructure, primarily on Red Hat Enterprise Linux versions 6 and 7
 
 Comcast Corporation                             Philadelphia, PA
 Linux Engineer                                  April 2016 - November 2017
