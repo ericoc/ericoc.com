@@ -7,7 +7,7 @@ eric@ericoc.com
 
 Background
 
-I am seeking a technical role, within Philadelphia, at a company with a positive and fun culture that allows me to continuously learn while also making use of my years of Linux operations experience.
+I am seeking a role, within Philadelphia, at a company with a positive and fun culture that allows me to continuously learn.
 
 
 Personal Projects
@@ -33,9 +33,9 @@ Amazon Alexa Skill for SeizureTracker(.com)
 Work Experience
 
 Thomas Jefferson University Hospital (IS&T)     Philadelphia, PA
-Linux Systems Administrator                     April 2018 - Present
+Linux Systems Administrator                     April 2018 - February 2020
 
-- Assist a small team in maintaining the configuration, reliability, and security of approximately 500 very unique Linux servers which host research, medical, pharmaceutical and academic data for the hospital and university
+- Assisted a small team in maintaining the configuration, reliability, and security of approximately 500 very unique Linux servers which hosted research, medical, pharmaceutical and academic data for the hospital and university
 
 Comcast Corporation                             Philadelphia, PA
 Linux Engineer                                  April 2016 - November 2017
