@@ -32,6 +32,9 @@ Amazon Alexa Skill for SeizureTracker(.com)
 
 Work Experience
 
+Comcast Corporation                             Philadelphia, PA
+Linux Systems Administrator                     March 2020 - Present
+
 Thomas Jefferson University Hospital (IS&T)     Philadelphia, PA
 Linux Systems Administrator                     April 2018 - February 2020
 
