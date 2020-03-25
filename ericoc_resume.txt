@@ -35,6 +35,8 @@ Work Experience
 Comcast Corporation                             Philadelphia, PA
 Linux Systems Administrator                     March 2020 - Present
 
+- Member of the Next Generation Access Network (NGAN) department working on virtual cable modem termination systems (vCMTS)
+
 Thomas Jefferson University Hospital (IS&T)     Philadelphia, PA
 Linux Systems Administrator                     April 2018 - February 2020
 
