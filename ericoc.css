@@ -13,6 +13,13 @@ body {
     font-family:    Arial, sans-serif;
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color:   #323639;
+        color:              #d6d6d7;
+    }
+}
+
 .logo, .logo a:link {
     color:              #104e8b;
     font-family:        'Permanent Marker', cursive;
