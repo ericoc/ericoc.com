@@ -4,9 +4,6 @@ Philadelphia, PA
 eric@ericoc.com
 (757) 742-3742
 
-
-Background
-
 I am seeking a role, within Philadelphia, at a company with a positive and fun culture that allows me to continuously learn.
 
 
@@ -17,11 +14,6 @@ Indego Bike Share Python Library
 - Created a Python library to interact with the RideIndego.com API to retrieve bicycle and station availability; which is available via PyPi as "indego"
 - Built a searchable, dynamic website using my custom library and Flask to display the availability of bicycles and docks at all of the 130+ bike share stations throughout the City of Philadelphia
 - Store JSON in PostgreSQL via SQLAlchemy in order to generate charts of historical bicycle availability using jQuery and Highcharts
-
-Zeromon
-
-- Built a repository of Ansible roles to set up a fully running Zabbix server installation with the deployment of a new Amazon EC2 instance or DigitalOcean Droplet
-- Using cloud-init in combination with Zabbix, this collection of Ansible roles deploys Ubuntu 18.04 with a working Postfix, MySQL, Apache, and Zabbix server to allow users to quickly and easily get started using Zabbix with little to no effort via an Amazon AMI or from a DigitalOcean Marketplace "One-Click"
 
 Amazon Alexa Skill for SeizureTracker(.com)
 
@@ -35,7 +27,9 @@ Work Experience
 Comcast Corporation                             Philadelphia, PA
 Linux Systems Administrator                     March 2020 - Present
 
-- Member of the Next Generation Access Network (NGAN) department working on virtual cable modem termination systems (vCMTS)
+- Operations team member within the Next Generation Access Network (NGAN) department triaging incidents surrounding the national virtual cable modem termination system (vCMTS)
+- Primarily responsible for quickly determining the cause of any service disruption/interruption for both residential and business customers across the nationwide Comcast footprint of rapidly-deployed vCMTS installations
+- Worked with and deployed Hewlett-Packard (HP), Opengear, Cisco, Arista, Juniper, and Harmonic software as well video and network hardware, while regularly maintaining vendor relationships
 
 Thomas Jefferson University Hospital (IS&T)     Philadelphia, PA
 Linux Systems Administrator                     April 2018 - February 2020
