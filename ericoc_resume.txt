@@ -1,11 +1,8 @@
 Eric O'Callaghan
 
-Philadelphia, PA
+Philadelphia, Pennsylvania
 eric@ericoc.com
 (757) 742-3742
-
-I am seeking a role, within Philadelphia, at a company with a positive and fun culture that allows me to continuously learn.
-
 
 Personal Projects
 
@@ -24,8 +21,11 @@ Amazon Alexa Skill for SeizureTracker(.com)
 
 Work Experience
 
+SigFig                                          Remote (Philadelphia, PA)
+Site Operations Engineer                        March 2022 - Present
+
 Comcast Corporation                             Philadelphia, PA
-Linux Systems Administrator                     March 2020 - Present
+Linux Systems Administrator                     March 2020 - February 2022
 
 - Operations team member within the Next Generation Access Network (NGAN) department triaging incidents surrounding the national virtual cable modem termination system (vCMTS)
 - Primarily responsible for quickly determining the cause of any service disruption/interruption for both residential and business customers across the nationwide Comcast footprint of rapidly-deployed vCMTS installations
@@ -56,20 +56,6 @@ Linux Systems Administrator                     November 2013 - April 2016
 - Wrote and tested documentation on the processes necessary to restore internal Percona XtraDB database backups
 - Created and open-sourced a Bash shell script that instantly forwards Zabbix alerts to Slack, which I am proud to say is now used by many members of the Zabbix and Slack online communities
 - Automated deployment of in-house PHP application via "chatops". In efforts with a co-worker, we set up RunDeck to trigger requests to the Ansible Tower API allowing quick and easy deployment at any time from our teams shared Slack chat
-
-Urban Outfitters (URBN, Inc)                    Philadelphia, PA
-Linux Systems Administrator                     September 2012 - November 2013
-
-- Worked with a team to migrate UrbanOutfitters.com and Anthropologie.com from third-party managed services to in-house physical Solaris and RedHat servers
-- Performed racking, cabling, and physical installation of HP servers within the on-site datacenter
-- Maintained Apache configurations which proxied web requests to clustered JBoss instances
-- Deployed internal DNS resolvers within the e-commerce network to improve response times for all website visitors and transactions while also enhancing network security
-- Used Zabbix JMX monitoring to graph HTTP request and response times
-
-Linode, LLC                                     Galloway, NJ
-Linux Technical Support                         July 2010 - August 2012
-
-- Provided quick and helpful technical support to a significant number of customers via telephone, e-mail, and support tickets which involved troubleshooting a wide variety of issues including routing inconsistencies between multiple international data centers
 
 
 Certifications
