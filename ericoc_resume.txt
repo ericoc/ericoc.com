@@ -6,6 +6,11 @@ eric@ericoc.com
 
 Personal Projects
 
+Ishar MUD
+
+- Assisted the maintainer of a multi-user dungeon (MUD) game in transitioning the games codebase from use of flat file storage to a MariaDB database, hosted on an Amazon EC2 instance
+- Used the opportunity to take advantage of Flask-Login, SQLAlchemy, and WTForms with Jinja2 templating to give players a portal to view information about their characters on the web
+
 Indego Bike Share Python Library
 
 - Created a Python library to interact with the RideIndego.com API to retrieve bicycle and station availability; which is available via PyPi as "indego"
@@ -23,6 +28,10 @@ Work Experience
 
 SigFig                                          Remote (Philadelphia, PA)
 Site Operations Engineer                        March 2022 - Present
+
+- Leverage monitoring and alerting tools including Nagios/Thruk, Splunk, New Relic, and Grafana in tracking down sudden issues
+- Implement and use various internal HTTP JSON APIs to automate generation of reporting information for numerous large banking partners
+- Perform root cause analysis of incidents, while constantly improving and iterating on processes
 
 Comcast Corporation                             Philadelphia, PA
 Linux Systems Administrator                     March 2020 - February 2022
