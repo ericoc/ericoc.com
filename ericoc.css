@@ -13,27 +13,27 @@ body {
     font-family:    'Open Sans', sans-serif;
 }
 
-header, header a:link {
+h1, header, header a:link, header a:visited  {
+    color:              #0096FF;
     font-family:        'Permanent Marker', cursive;
-    font-size:          1.25em;
-    font-style:         normal;
+    font-size:          1.5em;
     font-weight:        normal;
+    margin:             auto;
     text-align:         center;
     text-decoration:    none;
-    margin:             auto;
 }
 
-a:link, a:visited {
-    color:  #4da0ff;
+a:link, header a:hover, header a:active {
+    color:                  #0096FF;
 }
 
-#logo-blue, a:hover, a:active {
-    color:  #104e8b;
+#logo, a:active, a:hover, a:visited {
+    color:        #4682B4;
 }
 
 main {
-    margin: auto;
-    width:  75vw;
+    margin:         auto;
+    width:          75vw;
 }
 
 nav {
@@ -47,6 +47,7 @@ nav ul, #background ul {
     list-style:     none;
     padding:        0;
 }
+
 nav li {
     display:       inline;
 }
@@ -55,16 +56,20 @@ nav, h2 {
     font-size:      1.2em;
 }
 
-h1, h3, h4, h5 {
+h3, h4, h5, h6 {
     font-weight:    normal;
-    margin:         0;
+    margin:         0 1vw 0 0;
 }
 
 h4 {
     font-style:     italic;
 }
 
-footer {
+h5 {
+    font-size:      0.85em;
+}
+
+footer, .error {
     padding:        1em;
     text-align:     center;
 }
@@ -74,9 +79,5 @@ footer {
     body {
         background-color:   #323639;
         color:              #d6d6d7;
-    }
-
-    a:hover, a:active {
-        color:              #fff;
     }
 }
