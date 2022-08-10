@@ -1,16 +1,16 @@
 @font-face {
-    font-family:    'Permanent Marker';
-    src:            local('Permanent Marker'),
-                    local('PermanentMarker'),
-                    local('Permanent Marker Regular'),
-                    local('PermanentMarker-Regular'),
-                    url('logo.woff')    format('woff'),
-                    url('logo.woff2')   format('woff2'),
-                    url('logo.ttf')     format('truetype');
+    font-family:        'Permanent Marker';
+    src:                local('Permanent Marker'),
+                        local('PermanentMarker'),
+                        local('Permanent Marker Regular'),
+                        local('PermanentMarker-Regular'),
+                        url('logo.woff')    format('woff'),
+                        url('logo.woff2')   format('woff2'),
+                        url('logo.ttf')     format('truetype');
 }
 
 body {
-    font-family:    'Open Sans', sans-serif;
+    font-family:        'Open Sans', sans-serif;
 }
 
 h1, header, header a:link, header a:visited  {
@@ -24,55 +24,53 @@ h1, header, header a:link, header a:visited  {
 }
 
 #logo, a:link, header a:hover, header a:active {
-    color:                  #0096FF;
+    color:              #0096FF;
 }
 
 a:active, a:hover, a:visited {
-    color:        #4682B4;
+    color:              #4682B4;
 }
 
 main {
-    margin:         auto;
-    width:          75vw;
+    margin:             auto;
+    width:              75vw;
 }
 
 nav {
-    font-size:      1.1em;
-    margin:         auto;
-    text-align:     center;
-    word-spacing:   2em;
+    text-align:         center;
+    word-spacing:       2em;
 }
 
 nav ul, #background ul {
-    list-style:     none;
-    padding:        0;
+    list-style:         none;
+    padding:            0;
 }
 
 nav li {
-    display:       inline;
+    display:            inline;
 }
 
 nav, h2 {
-    font-size:      1.2em;
+    font-size:          1.2em;
 }
 
 h3, h4, h5, h6 {
-    font-weight:    normal;
-    margin:         0;
-    margin-left:    1vw;
+    font-weight:        normal;
+    margin:             0;
+    margin-left:        1vw;
 }
 
 h4 {
-    font-style:     italic;
+    font-style:         italic;
 }
 
 h5 {
-    font-size:      0.85em;
+    font-size:          0.85em;
 }
 
 footer, .error {
-    padding:        1em;
-    text-align:     center;
+    padding:            1em;
+    text-align:         center;
 }
 
 @media (prefers-color-scheme: dark) {
