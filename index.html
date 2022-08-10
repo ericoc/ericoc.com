@@ -29,110 +29,249 @@
 
     <body>
 
-        <div class="logo">
-            <h1 title="Eric O'Callaghan"><a href="/"><span class="logoblue">Eric O'C</span>allaghan</a></h1>
-        </div>
+        <header>
+            <h1 title="Eric O'Callaghan">
+                <a href="/"><span id="logo-blue">Eric O'C</span>allaghan</a>
+            </h1>
+        </header>
 
-        <div class="content">
-
-            <div class="middle">
-                <span class="wide">
+        <nav>
+            <ul>
+                <li>
                     <a href="/ericoc_resume.docx" target="_blank">DOC</a>
+                </li>
+                <li>
                     <a href="/ericoc_resume.pdf" target="_blank">PDF</a>
+                </li>
+                <li>
                     <a href="/ericoc_resume.txt" target="_blank">TXT</a>
-                </span>
-            </div>
-
-            <h2>Philadelphia, Pennsylvania</h2>
-            <h3><a href="mailto:eric@ericoc.com">eric@ericoc.com</a></h3>
-            <h3><a href="tel:1-757-742-3742">(757) 742-3742</a></h3>
-            <h3 class="wide"><a href="https://github.com/ericoc/" target="_blank">GitHub</a> <a href="https://www.linkedin.com/in/ericoc/" target="_blank">LinkedIn</a></h3>
-
-            <h2 id="projects">Personal Projects</h2>
-            <h3 id="isharmud"><a href="https://github.com/IsharMud/ishar-web" target="_blank">Ishar MUD</a></h3>
-            <ul>
-                <li>Assisted the maintainer of a multi-user dungeon game, <a href="https://isharmud.com/" target="_blank">Ishar MUD</a>, in transitioning the games codebase from use of flat file storage to a MariaDB database, hosted on an Amazon EC2 instance</li>
-                <li>Used the opportunity to take advantage of Flask-Login, SQLAlchemy, and WTForms with Jinja2 templating to give players a portal to view information about their characters on the web</li>
+                </li>
             </ul>
+        </nav>
 
-            <h3 id="indego"><a href="https://github.com/ericoc/indego-py-lib" target="_blank">Indego Bike Share Python Library</a></h3>
-            <ul>
-                <li>Created a Python library to interact with the RideIndego.com API to retrieve bicycle and station availability; which is <a href="https://pypi.org/project/indego/" target="_blank">available via PyPi as "indego"</a></li>
-                <li>Built a <a href="https://indego.ericoc.com/" target="_blank">searchable, dynamic website</a> using my custom library and Flask to display the availability of bicycles and docks at all of the 130+ bike share stations throughout the City of Philadelphia</li>
-                <li>Store JSON in PostgreSQL via SQLAlchemy in order to generate charts of historical bicycle availability using jQuery and <a href="https://www.highcharts.com/blog/products/highcharts/250-tracking-bike-share-usage-in-philadelphia/" target="_blank">Highcharts</a></li>
-            </ul>
+        <main>
 
-            <h3 id="alexaseizure"><a href="https://github.com/ericoc/alexa-seizuretracker" target="_blank">Amazon Alexa Skill for SeizureTracker.com</a></h3>
-            <ul>
-                <li>Worked with the founder of <a href="https://seizuretracker.com/" target="_blank">SeizureTracker</a> to create an <a href="https://www.amazon.com/Seizure-Tracker/dp/B074HBVHRJ" target="_blank">Amazon Alexa skill</a> which allows users to record epileptic seizure activity by voice</li>
-                <li>Implemented Bearer Token OAuth via PHP to allow users to associate their Amazon Echo to their SeizureTracker.com account</li>
-                <li>Created a small PHP application to interact with the SeizureTracker API appropriately, based upon various voice commands sent as JSON via signed HTTPS POST requests from Amazon</li>
-            </ul>
+            <section id="background">
+                <h2 title="Location: Philadelphia, Pennsylvania, USA">
+                    Philadelphia, Pennsylvania, USA
+                </h2>
+                <ul>
+                    <li>
+                        <h3 title="E-mail Address: eric@ericoc.com">
+                            <a href="mailto:eric@ericoc.com">eric@ericoc.com</a>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3 title="Telephone Number: +1 (757) 742-3742">
+                            <a href="tel:1-757-742-3742">(757) 742-3742</a>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3 title="GitHub: ericoc">
+                            <a href="https://github.com/ericoc/" target="_blank">GitHub</a>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3 title="LinkedIn: ericoc">
+                            <a href="https://www.linkedin.com/in/ericoc/" target="_blank">LinkedIn</a>
+                        </h3>
+                    </li>
+                </ul>
+            </section>
 
-            <h2 id="experience">Work Experience</h2>
+            <section id="projects">
+                <h2 title="Personal Projects">
+                    Personal Projects
+                </h2>
+                <h3 id="ishar-mud">
+                    <a href="https://github.com/IsharMud/ishar-web" target="_blank">Ishar MUD</a>
+                </h3>
+                <ul>
+                    <li>
+                        Assisted the maintainer of a multi-user dungeon game, <a href="https://isharmud.com/" target="_blank">Ishar MUD</a>,
+                        in transitioning the games codebase from use of flat file storage to a MariaDB database, hosted on an Amazon EC2 instance
+                    </li>
+                    <li>
+                        Used the opportunity to take advantage of Flask-Login, SQLAlchemy, and WTForms with Jinja2 templating
+                        to give players a portal to view information about their characters on the web
+                    </li>
+                </ul>
 
-            <h3 id="sigfig"><a href="https://sigfig.com/" target="_blank">SigFig</a></h3>
-            <h4>Site Operations Engineer</h4>
-            <h5>Remote - Philadelphia, PA (March 2022 - Present)</h5>
-            <ul>
-                <li>Leverage monitoring and alerting tools including Nagios/Thruk, Splunk, New Relic, and Grafana in tracking down sudden issues</li>
-                <li>Implement and use various internal HTTP JSON APIs to automate generation of reporting information for numerous large banking partners</li>
-                <li>Perform root cause analysis of incidents, while constantly improving and iterating on processes</li>
-            </ul>
+                <h3 id="indego">
+                    <a href="https://github.com/ericoc/indego-py-lib" target="_blank">Indego Bike Share Python Library</a>
+                </h3>
+                <ul>
+                    <li>
+                        Created a Python library to interact with the RideIndego.com API to retrieve bicycle and station availability; which is 
+                        <a href="https://pypi.org/project/indego/" target="_blank">available via PyPi as "<code>indego</code>"</a>
+                    </li>
+                    <li>
+                        Built a <a href="https://indego.ericoc.com/" target="_blank">searchable, dynamic website</a> using my custom library
+                        and Flask to display the availability of bicycles and docks at all of the 130+ bike share stations throughout the City of Philadelphia
+                    </li>
+                    <li>
+                        Store JSON in PostgreSQL via SQLAlchemy in order to generate charts of historical bicycle availability using jQuery and
+                        <a href="https://www.highcharts.com/blog/products/highcharts/250-tracking-bike-share-usage-in-philadelphia/" target="_blank">Highcharts</a>
+                    </li>
+                </ul>
 
-            <h3 id="comcast2"><a href="https://corporate.comcast.com/" target="_blank">Comcast Corporation</a></h3>
-            <h4>Linux Systems Administrator</h4>
-            <h5>Philadelphia, PA (March 2020 - February 2022)</h5>
-            <ul>
-                <li>Operations team member within the Next Generation Access Network (NGAN) department triaging incidents surrounding the national virtual cable modem termination system (vCMTS)</li>
-                <li>Primarily responsible for quickly determining the cause of any service disruption/interruption for both residential and business customers across the nationwide Comcast footprint of rapidly-deployed vCMTS installations</li>
-                <li>Worked with and deployed Hewlett-Packard (HP), Opengear, Cisco, Arista, Juniper, and Harmonic software as well video and network hardware, while regularly maintaining vendor relationships</li>
-            </ul>
+                <h3 id="alexa-seizure">
+                    <a href="https://github.com/ericoc/alexa-seizuretracker" target="_blank">Amazon Alexa Skill for SeizureTracker.com</a>
+                </h3>
+                <ul>
+                    <li>
+                        Worked with the founder of <a href="https://seizuretracker.com/" target="_blank">SeizureTracker</a> to create an
+                        <a href="https://www.amazon.com/Seizure-Tracker/dp/B074HBVHRJ" target="_blank">Amazon Alexa skill</a>
+                        which allows users to record epileptic seizure activity by voice
+                    </li>
+                    <li>
+                        Implemented Bearer Token OAuth via PHP to allow users to associate their Amazon Echo to their SeizureTracker.com account
+                    </li>
+                    <li>
+                        Created a small PHP application to interact with the SeizureTracker API appropriately,
+                        based upon various voice commands sent as JSON via signed HTTPS POST requests from Amazon
+                    </li>
+                </ul>
+            </section>
 
-            <h3 id="jefferson"><a href="https://www.jefferson.edu/" target="_blank">Thomas Jefferson University Hospital (IS&T)</a></h3>
-            <h4>Linux Systems Administrator</h4>
-            <h5>Philadelphia, PA (April 2018 - February 2020)</h5>
-            <ul>
-                <li>Assisted a small team in maintaining the configuration, reliability, and security of approximately 500 very unique Linux servers which hosted research, medical, pharmaceutical and academic data for the hospital and university</li>
-                <li>Managed VMware data stores, volumes, and virtual machines on network storage regularly</li>
-                <li>Deployed SolarWinds monitoring agents throughout the infrastructure, primarily on Red Hat Enterprise Linux versions 6 and 7</li>
-            </ul>
+            <section id="employment">
+                <h2 id="experience" title="Work Experience">
+                    Work Experience
+                </h2>
 
-            <h3 id="comcast1"><a href="https://corporate.comcast.com/" target="_blank">Comcast Corporation</a></h3>
-            <h4>Linux Engineer</h4>
-            <h5>Philadelphia, PA (April 2016 - November 2017)</h5>
-            <ul>
-                <li>Performed configuration management by writing Ansible roles and playbooks that I ran on nearly 1,000 CentOS servers which hosted one of the top five largest Splunk installations in the world</li>
-                <li>Modified sysctl network and disk I/O settings to utilize servers more efficiently</li>
-                <li>Set up a Zabbix cluster which monitored over 800 physical Hewlett-Packard (HP) hosts and was used to automatically detect hard disk drive failures before they caused any service interruption</li>
-                <li>Created a variety of complex Apache configurations to fit within internal network security guidelines, including implementation of client-certificate authentication as well as reverse proxies</li>
-                <li>Regularly tested TCP/IP connectivity between different VLANs, networks, and data centers throughout the country which required opening JIRA tickets to request firewall changes that I would then validate were completed successfully</li>
-                <li>Ensured consistency of firewall rules as well as server and network settings across hosts in thirty different data centers</li>
-            </ul>
+                <h3 id="sigfig" title="SigFig">
+                    <a href="https://sigfig.com/" target="_blank">SigFig</a>
+                </h3>
+                <h4>Site Operations Engineer</h4>
+                <h5>Remote - Philadelphia, PA (March 2022 - Present)</h5>
+                <ul>
+                    <li>Leverage monitoring and alerting tools including Nagios/Thruk, Splunk, New Relic, and Grafana in tracking down sudden issues</li>
+                    <li>Implement and use various internal HTTP JSON APIs to automate generation of reporting information for numerous large banking partners</li>
+                    <li>Perform root cause analysis of incidents, while constantly improving and iterating on processes</li>
+                </ul>
 
-            <h3 id="sidecar"><a href="https://hello.getsidecar.com/" target="_blank">Sidecar Interactive</a></h3>
-            <h4>Linux Systems Administrator</h4>
-            <h5>Philadelphia, PA (November 2013 - April 2016)</h5>
-            <ul>
-                <li>Being the sole systems administrator for the company, my primary duties included response to any infrastructure issues as well as responsibility for all server modifications and yum/apt updates</li>
-                <li>Maintained multiple database environments that included MySQL replication between co-located Dell and HP hardware, running Ubuntu, and Amazon Web Services (AWS)</li>
-                <li>Wrote and tested documentation on the processes necessary to restore internal Percona XtraDB database backups</li>
-                <li>Created and <a id="zabbixslack" href="https://github.com/ericoc/zabbix-slack-alertscript" target="_blank">open-sourced a Bash shell script</a> that instantly forwards Zabbix alerts to Slack, which I am proud to say is now used by many members of the Zabbix and Slack online communities</li>
-                <li>Automated deployment of in-house PHP application via "chatops". In efforts with a co-worker, we set up RunDeck to trigger requests to the Ansible Tower API allowing quick and easy deployment at any time from our teams shared Slack chat</li>
-            </ul>
+                <h3 id="comcast2" title="Comcast Corporation">
+                    <a href="https://corporate.comcast.com/" target="_blank">Comcast Corporation</a>
+                </h3>
+                <h4>Linux Systems Administrator</h4>
+                <h5>Philadelphia, PA (March 2020 - February 2022)</h5>
+                <ul>
+                    <li>
+                        Operations team member within the Next Generation Access Network (NGAN) department triaging incidents surrounding
+                        the national virtual cable modem termination system (vCMTS)
+                    </li>
+                    <li>
+                        Primarily responsible for quickly determining the cause of any service disruption/interruption for both residential and business customers
+                        across the nationwide Comcast footprint of rapidly-deployed vCMTS installations
+                    </li>
+                    <li>
+                        Worked with and deployed Hewlett-Packard (HP), Opengear, Cisco, Arista, Juniper, and Harmonic software as well video and network hardware,
+                        while regularly maintaining vendor relationships
+                    </li>
+                </ul>
 
-            <h2 id="certs">Certifications</h2>
-            <ul>
-                <li>CompTIA Security+, Network+, and Linux+</li>
-                <li>Hurricane Electric IPv6</li>
-                <li>Cisco Certified Entry Networking Technician (CCENT)</li>
-            </ul>
+                <h3 id="jefferson" title="Thomas Jefferson University Hospital">
+                    <a href="https://www.jefferson.edu/" target="_blank">Thomas Jefferson University Hospital (IS&T)</a>
+                </h3>
+                <h4>Linux Systems Administrator</h4>
+                <h5>Philadelphia, PA (April 2018 - February 2020)</h5>
+                <ul>
+                    <li>
+                        Assisted a small team in maintaining the configuration, reliability, and security of approximately 500 very unique Linux servers
+                        which hosted research, medical, pharmaceutical and academic data for the hospital and university
+                    </li>
+                    <li>
+                        Managed VMware data stores, volumes, and virtual machines on network storage regularly
+                    </li>
+                    <li>
+                        Deployed SolarWinds monitoring agents throughout the infrastructure, primarily on Red Hat Enterprise Linux versions 6 and 7
+                    </li>
+                </ul>
 
-            <h2 id="education">Education</h2>
-            <h3>ECPI University</h3>
-            <h4>Networking & Security Management (A.A.S.)</h4>
-            <h5>Newport News, VA (September 2008 - May 2010)</h5>
-        </div>
+                <h3 id="comcast1" title="Comcast Corporation">
+                    <a href="https://corporate.comcast.com/" target="_blank">Comcast Corporation</a>
+                </h3>
+                <h4>Linux Engineer</h4>
+                <h5>Philadelphia, PA (April 2016 - November 2017)</h5>
+                <ul>
+                    <li>
+                        Performed configuration management by writing Ansible roles and playbooks that I ran on nearly 1,000 CentOS servers which
+                        hosted one of the top five largest Splunk installations in the world
+                    </li>
+                    <li>
+                        Modified sysctl network and disk I/O settings to utilize servers more efficiently
+                    </li>
+                    <li>
+                        Set up a Zabbix cluster which monitored over 800 physical Hewlett-Packard (HP) hosts and
+                        was used to automatically detect hard disk drive failures before they caused any service interruption
+                    </li>
+                    <li>
+                        Created a variety of complex Apache configurations to fit within internal network security guidelines,
+                        including implementation of client-certificate authentication as well as reverse proxies
+                    </li>
+                    <li>
+                        Regularly tested TCP/IP connectivity between different VLANs, networks, and data centers throughout the country
+                        which required opening JIRA tickets to request firewall changes that I would then validate were completed successfully
+                    </li>
+                    <li>
+                        Ensured consistency of firewall rules as well as server and network settings across hosts in thirty different data centers
+                    </li>
+                </ul>
+
+                <h3 id="sidecar" title="Sidecar Interactive">
+                    <a href="https://hello.getsidecar.com/" target="_blank">Sidecar Interactive</a>
+                </h3>
+                <h4>Linux Systems Administrator</h4>
+                <h5>Philadelphia, PA (November 2013 - April 2016)</h5>
+                <ul>
+                    <li>
+                        Being the sole systems administrator for the company, my primary duties included response to any infrastructure issues
+                        as well as responsibility for all server modifications and yum/apt updates
+                    </li>
+                    <li>
+                        Maintained multiple database environments that included MySQL replication between co-located Dell and HP hardware,
+                        running Ubuntu, and Amazon Web Services (AWS)
+                    </li>
+                    <li>
+                        Wrote and tested documentation on the processes necessary to restore internal Percona XtraDB database backups
+                    </li>
+                    <li>
+                        Created and <a id="zabbixslack" href="https://github.com/ericoc/zabbix-slack-alertscript" target="_blank">open-sourced a Bash shell script</a>
+                        that instantly forwards Zabbix alerts to Slack, which I am proud to say is now used by many members of the Zabbix and Slack online communities
+                    </li>
+                    <li>
+                        Automated deployment of in-house PHP application via "chatops". In efforts with a co-worker, we set up RunDeck to trigger requests
+                        to the Ansible Tower API allowing quick and easy deployment at any time from our teams shared Slack chat
+                    </li>
+                </ul>
+            </section>
+
+            <section id="certifications">
+                <h2 id="certs" title="Certifications">Certifications</h2>
+                <ul>
+                    <li>CompTIA Security+, Network+, and Linux+</li>
+                    <li>Hurricane Electric IPv6</li>
+                    <li>Cisco Certified Entry Networking Technician (CCENT)</li>
+                </ul>
+            </section>
+
+            <section id="education">
+                <h2 id="edu" title="Education">Education</h2>
+                <h3>ECPI University</h3>
+                <h4>Networking & Security Management (A.A.S.)</h4>
+                <h5>Newport News, VA (September 2008 - May 2010)</h5>
+            </section>
+
+        </main>
+
+        <footer>
+            <h5>
+                <code>
+                    Last Modified: Tue Aug  9 23:40:00 UTC 2022
+                </code>
+            </h5>
+        </footer>
 
     </body>
+
 </html>
