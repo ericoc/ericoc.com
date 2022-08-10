@@ -58,7 +58,8 @@ nav, h2 {
 
 h3, h4, h5, h6 {
     font-weight:    normal;
-    margin:         0 1vw 0 0;
+    margin:         0;
+    margin-left:    1vw;
 }
 
 h4 {
