@@ -43,21 +43,19 @@ main {
     width:              75vw;
 }
 
-nav {
+nav ul, #background ul {
+    font-size:          1.2em;
+    list-style:         none;
+    padding:            0;
     text-align:         center;
     word-spacing:       2em;
 }
 
-nav ul, #background ul {
-    list-style:         none;
-    padding:            0;
-}
-
-nav li {
+nav li, #background li {
     display:            inline;
 }
 
-nav, h2 {
+h2 {
     font-size:          1.2em;
 }
 
