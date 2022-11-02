@@ -26,8 +26,13 @@ Amazon Alexa Skill for SeizureTracker(.com)
 
 Work Experience
 
+University of Pennsylvania                      Philadelphia, PA
+Application Development Operations Engineer     October 2022 - Present
+
+- Staff at School of Engineering & Applied Science (SEAS), Computing and Educational Technology Services (CETS)
+
 SigFig                                          Remote (Philadelphia, PA)
-Site Operations Engineer                        March 2022 - Present
+Site Operations Engineer                        March - October 2022
 
 - Leverage monitoring and alerting tools including Nagios/Thruk, Splunk, New Relic, and Grafana in tracking down sudden issues
 - Implement and use various internal HTTP JSON APIs to automate generation of reporting information for numerous large banking partners
