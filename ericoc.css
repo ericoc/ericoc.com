@@ -1,16 +1,16 @@
 @font-face {
-    font-family:        'Permanent Marker';
-    src:                local('Permanent Marker'),
-                        local('PermanentMarker'),
-                        local('Permanent Marker Regular'),
-                        local('PermanentMarker-Regular'),
-                        url('logo.woff')    format('woff'),
-                        url('logo.woff2')   format('woff2'),
-                        url('logo.ttf')     format('truetype');
+    font-family:    'Permanent Marker';
+    src:            local('Permanent Marker'),
+                    local('PermanentMarker'),
+                    local('Permanent Marker Regular'),
+                    local('PermanentMarker-Regular'),
+                    url('logo.woff')    format('woff'),
+                    url('logo.woff2')   format('woff2'),
+                    url('logo.ttf')     format('truetype');
 }
 
 body {
-    font-family:        'Open Sans', sans-serif;
+    font-family:    'Open Sans', sans-serif;
 }
 
 h1, header, header a:link, header a:visited  {
@@ -39,47 +39,46 @@ a:visited {
 }
 
 main {
-    margin:             auto;
-    width:              75vw;
+    margin: auto;
+    width:  75vw;
 }
 
-nav ul, #background ul {
-    font-size:          1.2em;
-    list-style:         none;
-    padding:            0;
-    text-align:         center;
-    word-spacing:       2em;
+nav ul, footer ul {
+    font-size:      1.2em;
+    list-style:     none;
+    padding:        0;
+    text-align:     center;
+    word-spacing:   2em;
 }
 
-nav li, #background li {
-    display:            inline;
+nav li, footer li {
+    display:    inline;
 }
 
 h2 {
-    font-size:          1.2em;
+    font-size:  1.2em;
 }
 
 h3, h4, h5, h6 {
-    font-weight:        normal;
-    margin:             0;
-    margin-left:        1vw;
+    font-weight:    normal;
+    margin:         0;
+    margin-left:    1vw;
 }
 
 h4 {
-    font-style:         italic;
+    font-style: italic;
 }
 
 h5 {
-    font-size:          0.85em;
+    font-size:  0.85em;
 }
 
 footer, .error {
-    padding:            1em;
-    text-align:         center;
+    padding:    1em;
+    text-align: center;
 }
 
 @media (prefers-color-scheme: dark) {
-
     body {
         background-color:   #323639;
         color:              #d6d6d7;

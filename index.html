@@ -14,17 +14,13 @@
         <meta property="og:description" content="Eric O'Callaghan Résumé">
         <meta property="og:url" content="https://ericoc.com/">
         <meta property="og:image" content="https://ericoc.com/icon.png">
-        <link rel="stylesheet" href="/ericoc.css">
         <link rel="shortcut icon" href="/favicon.ico">
         <link rel="apple-touch-icon" href="/icon.png">
+        <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/bootstrap-icons/font/bootstrap-icons.min.css">
         <title>Eric O'Callaghan</title>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6FLFY43X5"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-E6FLFY43X5');
-        </script>
+        <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="/ericoc.css">
     </head>
 
     <body>
@@ -37,35 +33,24 @@
 
         <nav>
             <ul>
-                <li>
-                    <a href="/ericoc_resume.docx" target="_blank">DOC</a>
+                <li title="GitHub: ericoc">
+                    <a class="bi bi-github" href="https://github.com/ericoc/" target="_blank"></a>
                 </li>
-                <li>
-                    <a href="/ericoc_resume.pdf" target="_blank">PDF</a>
+                <li title="E-mail: eric@ericoc.com">
+                    <a class="bi bi-envelope" href="mailto:eric@ericoc.com" target="_blank"></a>
                 </li>
-                <li>
-                    <a href="/ericoc_resume.txt" target="_blank">TXT</a>
+                <li title="LinkedIn: ericoc">
+                    <a class="bi bi-linkedin" href="https://www.linkedin.com/in/ericoc/" target="_blank"></a>
                 </li>
             </ul>
         </nav>
 
         <main>
 
-            <section id="background">
+            <section id="location">
                 <h2 title="Philadelphia, Pennsylvania, USA">
                     Philadelphia, Pennsylvania, USA
                 </h2>
-                <ul>
-                    <li>
-                        <a href="https://github.com/ericoc/" target="_blank" title="GitHub: ericoc">GitHub</a>
-                    </li>
-                    <li>
-                        <a href="mailto:eric@ericoc.com" title="eric@ericoc.com">eric@ericoc.com</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/ericoc/" target="_blank" title="LinkedIn: ericoc">LinkedIn</a>
-                    </li>
-                </ul>
             </section>
 
             <section id="projects">
@@ -263,11 +248,47 @@
         </main>
 
         <footer>
-            <h5>
-                <code>
-                    Last Modified: Tue Aug  9 23:40:00 UTC 2022
-                </code>
-            </h5>
+
+            <div class="row">
+
+                <div class="col">
+                    <ul>
+                        <li title="DOCX">
+                            <a href="/ericoc_resume.docx" target="_blank">
+                                <svg class="bi">
+                                    <use xlink:href="/static/bootstrap-icons/bootstrap-icons.svg#filetype-docx"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li title="PDF">
+                            <a href="/ericoc_resume.pdf" target="_blank">
+                                <svg class="bi">
+                                    <use xlink:href="/static/bootstrap-icons/bootstrap-icons.svg#filetype-pdf"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li title="TXT">
+                            <a href="/ericoc_resume.txt" target="_blank">
+                                <svg class="bi">
+                                    <use xlink:href="/static/bootstrap-icons/bootstrap-icons.svg#filetype-txt"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h5 title="Last Modified: Tue Apr 8 2025">
+                        <code>
+                            Last Modified
+                            <i class="bi bi-calendar-event text-primary"></i>
+                            Tue Apr 8 2025
+                        </code>
+                    </h5>
+                </div>
+
+            </div>
+
         </footer>
 
     </body>
