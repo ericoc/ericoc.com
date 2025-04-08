@@ -16,7 +16,6 @@ body {
 h1, header, header a:link, header a:visited  {
     color:              #4682B4;
     font-family:        'Permanent Marker', cursive;
-    font-size:          1.5em;
     font-weight:        normal;
     margin:             auto;
     text-align:         center;
@@ -44,7 +43,6 @@ main {
 }
 
 nav ul, footer ul {
-    font-size:      1.2em;
     list-style:     none;
     padding:        0;
     text-align:     center;
@@ -55,10 +53,6 @@ nav li, footer li {
     display:    inline;
 }
 
-h2 {
-    font-size:  1.2em;
-}
-
 h3, h4, h5, h6 {
     font-weight:    normal;
     margin:         0;
@@ -67,10 +61,6 @@ h3, h4, h5, h6 {
 
 h4 {
     font-style: italic;
-}
-
-h5 {
-    font-size:  0.85em;
 }
 
 footer, .error {
