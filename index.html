@@ -39,7 +39,7 @@
 
     <body>
 
-        <header class="border-bottom navbar navbar-dark navbar-nav text-center">
+        <header class="navbar navbar-dark navbar-nav text-center">
             <nav class="container-fluid row">
 
                 <ul class="col">
@@ -75,11 +75,13 @@
 
         <main>
 
-            <p class="h3 m-3" id="location" title="Philadelphia, Pennsylvania, USA">
-                <i>Philadelphia, Pennsylvania, USA</i>
-            </p>
+            <div class="m-3 bg-info bg-opacity-10 border border-info rounded text-end" id="location">
+                <h4 class="p-3" title="Philadelphia, Pennsylvania, USA">
+                    Philadelphia, Pennsylvania, USA
+                </h4>
+            </div>
 
-            <details class="m-3" id="projects" open>
+            <details class="p-3" id="projects" open>
 
                 <summary class="h2 border-bottom" title="Projects">
                     Projects
@@ -145,7 +147,7 @@
 
             </details>
 
-            <details class="m-3" id="employment" open>
+            <details class="p-3" id="employment" open>
 
                 <summary class="border-bottom h2" id="experience" title="Experience">
                     Experience
@@ -161,13 +163,14 @@
                         Application Development Operations Engineer
                     </h4>
                     <h5 title="Philadelphia, PA (October 2022 - Present)">
-                        Philadelphia, PA (October 2022 - Present)
+                        Philadelphia, PA (October 2022 - <i>Present</i>)
                     </h5>
                     <ul>
-                        <li>Staff</li>
-                        <li>School of Engineering & Applied Science (SEAS)</li>
-                        <li>Computing and Educational Technology Services (CETS)</li>
-                        <li><i>The best</i></li>
+                        <li>Staff, Penn Engineering</li>
+                        <li>
+                            Computing and Educational Technology Services
+                            (&quot;<span class="font-monospace">CETS</span>&quot;)
+                        </li>
                     </ul>
                 </details>
 
@@ -319,7 +322,7 @@
 
             </details>
 
-            <details class="m-3" id="certifications" open>
+            <details class="p-3" id="certifications" open>
                 <summary class="border-bottom h2" id="certs" title="Certifications">
                     Certifications
                 </summary>
@@ -336,7 +339,7 @@
                 </ul>
             </details>
 
-            <details class="m-3" id="education" open>
+            <details class="p-3" id="education" open>
                 <summary class="border-bottom h2" id="edu" title="Education">
                     Education
                 </summary>
@@ -357,8 +360,8 @@
 
         </main>
 
-        <footer>
-            <p class="font-monospace p-3 text-center" title="Last Modified: Wed Apr 9 2025">
+        <footer class="m-3 bg-info bg-opacity-10 border border-info rounded" id="modified">
+            <p class="font-monospace p-3 text-end" id="last-modified" title="Last Modified: Wed Apr 9 2025">
                 Last Modified
                 <i class="bi bi-calendar-event px-3 text-primary"></i>
                 Wed Apr 9 2025
