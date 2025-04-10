@@ -29,11 +29,10 @@
             a:visited { color: #4682B4; text-decoration: none; }
             nav ul { list-style: none; padding: 0; text-align: center; word-spacing: 2em; }
             nav li, footer li { display: inline; }
-            body { margin: auto; width: 80vw; }
+            body { margin: auto; width: 80vw; background-color: #323639; color: #d6d6d7; }
             h4 { font-style: italic; }
             summary::marker { color: #d6d6d7; }
             summary::-webkit-details-marker { color: #d6d6d7; }
-            @media (prefers-color-scheme: dark) { body { background-color: #323639; color: #d6d6d7; } }
             .anchor-link {
                 padding: 0 .175rem;
                 font-weight: 400;
@@ -42,7 +41,7 @@
                 opacity: 0;
                 transition: color 0.15s ease-in-out,opacity 0.15s ease-in-out
             }
-            @media (prefers-reduced-motion: reduce) { .anchor-link { transition:none } }
+            @media (prefers-reduced-motion: reduce) { .anchor-link { transition: none } }
             .anchor-link::after { color: #4682B4; content: "#" }
             .anchor-link:focus, .anchor-link:hover, :hover>.anchor-link, :target>.anchor-link {
                 color: #0d6efd;
@@ -337,25 +336,25 @@
             </details>
 
             <details class="p-3" id="certifications" open>
-                <summary class="border-bottom border-primary-subtle h2" id="certs" title="Certifications">
+                <summary class="h2" id="certs" title="Certifications">
                     Certifications
                     <a class="anchor-link" href="#certs" aria-label="Link to this section: Certifications (certs)"></a>
                 </summary>
-                <ul>
-                    <li title="CompTIA Security+, Network+, and Linux+">
-                        CompTIA Security+, Network+, and Linux+
-                    </li>
-                    <li title="Hurricane Electric IPv6">
+                <ul class="list-group list-group-dark m-3">
+                    <li class="bg-dark list-group-item list-group-item-dark text-white" title="Hurricane Electric IPv6">
                         Hurricane Electric IPv6
                     </li>
-                    <li title="Cisco Certified Entry Networking Technician (CCENT)">
+                    <li class="bg-dark list-group-item list-group-item-dark text-white" title="CompTIA Security+, Network+, and Linux+">
+                        CompTIA Security+, Network+, and Linux+
+                    </li>
+                    <li class="bg-dark list-group-item list-group-item-dark text-white" title="Cisco Certified Entry Networking Technician (CCENT)">
                         Cisco Certified Entry Networking Technician (CCENT)
                     </li>
                 </ul>
             </details>
 
             <details class="p-3" id="edu" open>
-                <summary class="border-bottom border-primary-subtle h2" id="education" title="Education">
+                <summary class="h2" id="education" title="Education">
                     Education
                     <a class="anchor-link" href="#edu" aria-label="Link to this section: Education (edu)"></a>
                 </summary>
