@@ -1,85 +1,75 @@
 Eric O'Callaghan
-
 Philadelphia, Pennsylvania
 eric@ericoc.com
-(757) 742-3742
 
 Personal Projects
 
 Ishar MUD
-
-- Assisted the maintainer of a multi-user dungeon (MUD) game in transitioning the games codebase from use of flat file storage to a MariaDB database, hosted on an Amazon EC2 instance
-- Used the opportunity to take advantage of Flask-Login, SQLAlchemy, and WTForms with Jinja2 templating to give players a portal to view information about their characters on the web
+Assisted the maintainer of a multi-user dungeon (MUD) game in transitioning the games codebase from use of flat file storage to a MariaDB database, hosted on an Amazon EC2 instance
+Used the opportunity to take advantage of Flask-Login, SQLAlchemy, and WTForms with Jinja2 templating to give players a portal to view information about their characters on the web
 
 Indego Bike Share Python Library
+Created a Python library to interact with the RideIndego.com API to retrieve bicycle and station availability; which is available via PyPi as "indego"
+Built a searchable, dynamic website using my custom library and Flask to display the availability of bicycles and docks at all of the 130+ bike share stations throughout the City of Philadelphia
+Store JSON in PostgreSQL via SQLAlchemy in order to generate charts of historical bicycle availability using jQuery and Highcharts
 
-- Created a Python library to interact with the RideIndego.com API to retrieve bicycle and station availability; which is available via PyPi as "indego"
-- Built a searchable, dynamic website using my custom library and Flask to display the availability of bicycles and docks at all of the 130+ bike share stations throughout the City of Philadelphia
-- Store JSON in PostgreSQL via SQLAlchemy in order to generate charts of historical bicycle availability using jQuery and Highcharts
-
-Amazon Alexa Skill for SeizureTracker(.com)
-
-- Worked with the founder of SeizureTracker to create an Amazon Alexa skill which allows users to record epileptic seizure activity by voice
-- Implemented Bearer Token OAuth via PHP to allow users to associate their Amazon Echo to their SeizureTracker.com account
-- Created a small PHP application to interact with the SeizureTracker API appropriately, based upon various voice commands sent as JSON via signed HTTPS POST requests from Amazon
-
+Amazon Alexa Skill for SeizureTracker.com
+Worked with the founder of SeizureTracker to create an Amazon Alexa skill which allows users to record epileptic seizure activity by voice
+Implemented Bearer Token OAuth via PHP to allow users to associate their Amazon Echo to their SeizureTracker.com account
+Created a small PHP application to interact with the SeizureTracker API appropriately, based upon various voice commands sent as JSON via signed HTTPS POST requests from Amazon
 
 Work Experience
 
-University of Pennsylvania                      Philadelphia, PA
-Application Development Operations Engineer     October 2022 - Present
+University of Pennsylvania					Philadelphia, PA
+Application Development Operations Engineer		October 2022 - Present
+Leverage monitoring and alerting tools including Nagios/Thruk, Splunk, New Relic, and Grafana in tracking down sudden issues
+Implement and use various internal HTTP JSON APIs to automate generation of reporting information for numerous large banking partners
+Perform root cause analysis of incidents, while constantly improving and iterating on processes
 
-- Staff, School of Engineering & Applied Science (SEAS), Computing and Educational Technology Services (CETS)
+SigFig								Remote (Philadelphia, PA)
+Site Operations Engineer					March - October 2022
+Leverage monitoring and alerting tools including Nagios/Thruk, Splunk, New Relic, and Grafana in tracking down sudden issues
+Implement and use various internal HTTP JSON APIs to automate generation of reporting information for numerous large banking partners
+Perform root cause analysis of incidents, while constantly improving and iterating on processes
 
-SigFig                                          Remote (Philadelphia, PA)
-Site Operations Engineer                        March - October 2022
 
-- Leverage monitoring and alerting tools including Nagios/Thruk, Splunk, New Relic, and Grafana in tracking down sudden issues
-- Implement and use various internal HTTP JSON APIs to automate generation of reporting information for numerous large banking partners
-- Perform root cause analysis of incidents, while constantly improving and iterating on processes
+Comcast Corporation					Philadelphia, PA
+Linux Systems Administrator				March 2020 - February 2022
+Operations team member within the Next Generation Access Network (NGAN) department triaging incidents surrounding the national virtual cable modem termination system (vCMTS)
+Primarily responsible for quickly determining the cause of any service disruption/interruption for both residential and business customers across the nationwide Comcast footprint of rapidly-deployed vCMTS installations
+Worked with and deployed Hewlett-Packard (HP), Opengear, Cisco, Arista, Juniper, and Harmonic software as well video and network hardware, while regularly maintaining vendor relationships
 
-Comcast Corporation                             Philadelphia, PA
-Linux Systems Administrator                     March 2020 - February 2022
+Thomas Jefferson University Hospital (IS&T)		Philadelphia, PA
+Linux Systems Administrator				April 2018 - February 2020
+Assisted a small team in maintaining the configuration, reliability, and security of approximately 500 very unique Linux servers which hosted research, medical, pharmaceutical and academic data for the hospital and university
+Managed VMware data stores, volumes, and virtual machines on network storage regularly
+Deployed SolarWinds monitoring agents throughout the infrastructure, primarily on Red Hat Enterprise Linux versions 6 and 7
 
-- Operations team member within the Next Generation Access Network (NGAN) department triaging incidents surrounding the national virtual cable modem termination system (vCMTS)
-- Primarily responsible for quickly determining the cause of any service disruption/interruption for both residential and business customers across the nationwide Comcast footprint of rapidly-deployed vCMTS installations
-- Worked with and deployed Hewlett-Packard (HP), Opengear, Cisco, Arista, Juniper, and Harmonic software as well video and network hardware, while regularly maintaining vendor relationships
+Comcast Corporation					Philadelphia, PA
+Linux Engineer						April 2016 - November 2017
+Performed configuration management by writing Ansible roles and playbooks that I ran on nearly 1,000 CentOS servers which hosted one of the top five largest Splunk installations in the world
+Modified sysctl network and disk I/O settings to utilize servers more efficiently
+Set up a Zabbix cluster which monitored over 800 physical Hewlett-Packard (HP) hosts and was used to automatically detect hard disk drive failures before they caused any service interruption
+Created a variety of complex Apache configurations to fit within internal network security guidelines, including implementation of client-certificate authentication as well as reverse proxies
+Regularly tested TCP/IP connectivity between different VLANs, networks, and data centers throughout the country which required opening JIRA tickets to request firewall changes that I would then validate were completed successfully
+Ensured consistency of firewall rules as well as server and network settings across hosts in thirty different data centers
 
-Thomas Jefferson University Hospital (IS&T)     Philadelphia, PA
-Linux Systems Administrator                     April 2018 - February 2020
 
-- Assisted a small team in maintaining the configuration, reliability, and security of approximately 500 very unique Linux servers which hosted research, medical, pharmaceutical and academic data for the hospital and university
-- Managed VMware data stores, volumes, and virtual machines on network storage regularly
-- Deployed SolarWinds monitoring agents throughout the infrastructure, primarily on Red Hat Enterprise Linux versions 6 and 7
-
-Comcast Corporation                             Philadelphia, PA
-Linux Engineer                                  April 2016 - November 2017
-
-- Performed configuration management by writing Ansible roles and playbooks that I ran on nearly 1,000 CentOS servers which hosted one of the top five largest Splunk installations in the world
-- Modified sysctl network and disk I/O settings to utilize servers more efficiently
-- Set up a Zabbix cluster which monitored over 800 physical Hewlett-Packard (HP) hosts and was used to automatically detect hard disk drive failures before they caused any service interruption
-- Created a variety of complex Apache configurations to fit within internal network security guidelines, including implementation of client-certificate authentication as well as reverse proxies
-- Regularly tested TCP/IP connectivity between different VLANs, networks, and data centers throughout the country which required opening JIRA tickets to request firewall changes that I would then validate were completed successfully
-- Ensured consistency of firewall rules as well as server and network settings across hosts in thirty different data centers
-
-Sidecar Interactive                             Philadelphia, PA
-Linux Systems Administrator                     November 2013 - April 2016
-
-- Being the sole systems administrator for the company, my primary duties included response to any infrastructure issues as well as responsibility for all server modifications and yum/apt updates
-- Maintained multiple database environments that included MySQL replication between co-located Dell and HP hardware, running Ubuntu, and Amazon Web Services (AWS)
-- Wrote and tested documentation on the processes necessary to restore internal Percona XtraDB database backups
-- Created and open-sourced a Bash shell script that instantly forwards Zabbix alerts to Slack, which I am proud to say is now used by many members of the Zabbix and Slack online communities
-- Automated deployment of in-house PHP application via "chatops". In efforts with a co-worker, we set up RunDeck to trigger requests to the Ansible Tower API allowing quick and easy deployment at any time from our teams shared Slack chat
-
+Sidecar Interactive						Philadelphia, PA
+Linux Systems Administrator				November 2013 - April 2016
+Maintained multiple database environments that included MySQL replication between co-located Dell and HP hardware, running Ubuntu, and Amazon Web Services (AWS)
+Wrote and tested documentation on the processes necessary to restore internal Percona XtraDB database backups
+Created and open-sourced a Bash shell script that instantly forwards Zabbix alerts to Slack, which I am proud to say is now used by many members of the Zabbix and Slack online communities
+Automated deployment of in-house PHP application via "chatops". In efforts with a co-worker, we set up RunDeck to trigger requests to the Ansible Tower API allowing quick and easy deployment at any time from our teams shared Slack chat
 
 Certifications
 
-- CompTIA Security+, Network+, and Linux+
-- Hurricane Electric IPv6 Sage
-- Cisco Certified Entry Networking Technician (CCENT)
+CompTIA Security+, Network+, and Linux+
+Hurricane Electric IPv6 Sage
+Cisco Certified Entry Networking Technician (CCENT)
 
 
 Education
 
-ECPI University                                 Newport News, VA
-Networking & Security Management (A.A.S.)       September 2008 - May 2010
+ECPI University						Newport News, VA
+Networking & Security Management (A.A.S.)		September 2008 - May 2010
