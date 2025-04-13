@@ -39,7 +39,13 @@
                 color: #4682B4;
                 text-decoration: none;
                 opacity: 0;
-                transition: color 0.15s ease-in-out,opacity 0.15s ease-in-out
+                transition: color 0.15s ease-in-out,opacity 0.15s ease-in-out;
+            }
+            :target>.anchor-link {
+                border-color: #0096FF;
+                border-radius: 0.5rem;
+                border-style: solid;
+                border-width: 0.15rem;
             }
             @media (prefers-reduced-motion: reduce) { .anchor-link { transition: none } }
             .anchor-link::after { color: #4682B4; content: "#" }
@@ -89,7 +95,7 @@
 
         <main>
 
-            <div class="m-1 rounded text-end" id="location">
+            <div class="p-1 rounded text-end" id="location">
                 <h4 title="Philadelphia, Pennsylvania, USA">
                     Philadelphia, Pennsylvania, USA
                     <a class="anchor-link" href="#location" aria-label="Link to this section: Location (location)"></a>
@@ -98,12 +104,12 @@
 
             <details class="p-3" open>
 
-                <summary class="h2" id="projects" title="Projects">
+                <summary class="border-bottom border-secondary h2" id="projects" title="Projects">
                     Projects
                     <a class="anchor-link" href="#projects" aria-label="Link to this section: Projects (projects)"></a>
                 </summary>
 
-                <details class="m-3" id="ishar" open>
+                <details class="p-3" id="ishar" open>
                     <summary class="h3" id="ishar-mud">
                         <a href="https://github.com/IsharMud/ishar-web" target="_blank" title="Ishar MUD">Ishar MUD</a>
                         <a class="anchor-link" href="#ishar-mud" aria-label="Link to this section: Project - Ishar MUD (ishar-mud)"></a>
@@ -121,7 +127,7 @@
                     </ul>
                 </details>
 
-                <details class="m-3" open>
+                <details class="p-3" open>
                     <summary class="h3" id="indego-py">
                         <a href="https://github.com/ericoc/indego-py-lib" target="_blank" title="Indego Bike Share Python Library">Indego Bike Share Python Library</a>
                         <a class="anchor-link" href="#indego-py" aria-label="Link to this section: Project - Indego Bike Share Python Library (indego)"></a>
@@ -142,7 +148,7 @@
                     </ul>
                 </details>
 
-                <details class="m-3" id="alexa-seize" open>
+                <details class="p-3" id="alexa-seize" open>
                     <summary class="h3" id="alexa-seizure">
                         <a href="https://github.com/ericoc/alexa-seizuretracker" target="_blank" title="Amazon Alexa Skill for SeizureTracker.com (GitHub.com)">Amazon Alexa Skill for SeizureTracker.com</a>
                         <a class="anchor-link" href="#alexa-seizure" aria-label="Link to this section: Project - Amazon Alexa Skill for SeizureTracker.com (ishar-mud)"></a>
@@ -167,12 +173,12 @@
 
             <details class="p-3" id="employment" open>
 
-                <summary class="h2" id="experience" title="Experience">
+                <summary class="border-bottom border-secondary h2" id="experience" title="Experience">
                     Experience
                     <a class="anchor-link" href="#experience" aria-label="Link to this section: Experience (experience)"></a>
                 </summary>
 
-                <details class="m-3" id="penn" open>
+                <details class="p-3" id="penn" open>
                     <summary class="h3" id="upenn">
                         <a href="https://cets.seas.upenn.edu/" target="_blank" title="University of Pennsylvania">University of Pennsylvania</a>
                         <a class="anchor-link" href="#upenn" aria-label="Link to this section: Experience - University of Pennsylvania (upenn)"></a>
@@ -192,7 +198,7 @@
                     </ul>
                 </details>
 
-                <details class="m-3" open>
+                <details class="p-3" open>
                     <summary class="h3" id="sigfig">
                         <a href="https://sigfig.com/" target="_blank" title="SigFig">SigFig</a>
                         <a class="anchor-link" href="#sigfig" aria-label="Link to this section: Experience - SigFig (sigfig)"></a>
@@ -210,7 +216,7 @@
                     </ul>
                 </details>
 
-                <details class="m-3" open>
+                <details class="p-3" open>
                     <summary class="h3" id="comcast2">
                         <a href="https://corporate.comcast.com/" target="_blank" title="Comcast Corporation">Comcast Corporation</a>
                         <a class="anchor-link" href="#comcast2" aria-label="Link to this section: Experience - Comcast Corporation (NGAN) [comcast2]"></a>
@@ -237,12 +243,12 @@
                     </ul>
                 </details>
 
-                <details class="m-3" open>
+                <details class="p-3" id="tjuh" open>
                     <summary class="h3" id="jefferson">
                         <a href="https://www.jefferson.edu/" target="_blank" title="Thomas Jefferson University Hospital">Thomas Jefferson University Hospital (IS&T)</a>
                         <a class="anchor-link" href="#jefferson" aria-label="Link to this section: Experience - Thomas Jefferson University Hospital [jefferson]"></a>
                     </summary>
-                    <h4 title="Linux Systems Administrator">
+                    <h4 id="tju" title="Linux Systems Administrator">
                         Linux Systems Administrator
                     </h4>
                     <h5 title="Philadelphia, PA (April 2018 - February 2020)">
@@ -262,7 +268,7 @@
                     </ul>
                 </details>
 
-                <details class="m-3" open>
+                <details class="p-3" open>
                     <summary class="h3" id="comcast1">
                         <a href="https://corporate.comcast.com/" target="_blank" title="Comcast Corporation">Comcast Corporation</a>
                         <a class="anchor-link" href="#comcast1" aria-label="Link to this section: Experience - Comcast Corporation (Splunk) [comcast1]"></a>
@@ -299,7 +305,7 @@
                     </ul>
                 </details>
 
-                <details class="m-3" open>
+                <details class="p-3" open>
                     <summary class="h3" id="sidecar">
                         <a href="https://www.linkedin.com/company/sidecar/" target="_blank" title="Sidecar Interactive">Sidecar Interactive</a>
                         <a class="anchor-link" href="#sidecar" aria-label="Link to this section: Experience - Sidecar Interactive (sidecar)"></a>
@@ -336,29 +342,29 @@
             </details>
 
             <details class="p-3" id="certifications" open>
-                <summary class="h2" id="certs" title="Certifications">
+                <summary class="border-bottom border-secondary h2" id="certs" title="Certifications">
                     Certifications
                     <a class="anchor-link" href="#certs" aria-label="Link to this section: Certifications (certs)"></a>
                 </summary>
-                <ul class="list-group list-group-dark m-3">
-                    <li class="bg-dark list-group-item list-group-item-dark text-white" title="Hurricane Electric IPv6">
+                <ul class="list-group list-group-dark p-3">
+                    <li class="bg-dark border-secondary list-group-item list-group-item-dark text-white" title="Hurricane Electric IPv6">
                         Hurricane Electric IPv6
                     </li>
-                    <li class="bg-dark list-group-item list-group-item-dark text-white" title="CompTIA Security+, Network+, and Linux+">
+                    <li class="bg-dark border-secondary list-group-item list-group-item-dark text-white" title="CompTIA Security+, Network+, and Linux+">
                         CompTIA Security+, Network+, and Linux+
                     </li>
-                    <li class="bg-dark list-group-item list-group-item-dark text-white" title="Cisco Certified Entry Networking Technician (CCENT)">
+                    <li class="bg-dark border-secondary list-group-item list-group-item-dark text-white" title="Cisco Certified Entry Networking Technician (CCENT)">
                         Cisco Certified Entry Networking Technician (CCENT)
                     </li>
                 </ul>
             </details>
 
             <details class="p-3" id="edu" open>
-                <summary class="h2" id="education" title="Education">
+                <summary class="border-bottom border-secondary h2" id="education" title="Education">
                     Education
                     <a class="anchor-link" href="#edu" aria-label="Link to this section: Education (edu)"></a>
                 </summary>
-                <details class="m-3" open>
+                <details class="p-3" open>
                     <summary class="h3" id="ecpi">
                         <a href="https://www.ecpi.edu/" target="_blank" title="ECPI University">ECPI University</a>
                         <a class="anchor-link" href="#ecpi" aria-label="Link to this section: Education - ECPI University (ecpi)"></a>
@@ -374,11 +380,11 @@
 
         </main>
 
-        <footer class="m-1" id="modified">
-            <p class="font-monospace text-end" id="last" title="Last Modified: Wed Apr 9 2025">
+        <footer class="p-1 text-end" id="modified">
+            <p class="badge border border-secondary" id="last" title="Last Modified: Wed Apr 9 2025">
                 Last Modified
                 <i class="bi bi-calendar-event px-3 text-primary"></i>
-                Wed Apr 9 2025
+                <span class="font-monospace">Wed Apr 9 2025</span>
                 <a class="anchor-link" href="#last" aria-label="Link to this section: Last Modified (modified)"></a>
             </p>
         </footer>
