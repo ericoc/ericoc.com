@@ -1,37 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="google-site-verification" content="4yRSlIeY2suoHNV99v092rtlWVP7vLHyQV7Idr8to1g">
         <meta name="author" content="Eric O'Callaghan">
-        <meta name="description" content="403 Forbidden">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="og:type" content="website">
         <meta property="og:site_name" content="Eric O'Callaghan">
-        <meta property="og:title" content="Eric O'Callaghan / 403 Forbidden">
-        <meta property="og:description" content="Access to that resource is forbidden">
-        <meta property="og:url" content="https://ericoc.com/403.html">
+        <meta property="og:title" content="Forbidden (403)">
+        <meta property="og:description" content="Access to that resource is forbidden.">
+        <meta property="og:url" content="https://ericoc.com/">
         <meta property="og:image" content="https://ericoc.com/icon.png">
-        <title>Eric O'Callaghan / 403 Forbidden</title>
-        <link rel="stylesheet" href="/ericoc.css">
-        <link rel="shortcut icon" href="/favicon.ico">
-        <link rel="apple-touch-icon" href="/icon.png">
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6FLFY43X5"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-E6FLFY43X5');
-        </script>
+        <link rel="shortcut icon" href="https://ericoc.com/favicon.ico">
+        <link rel="apple-touch-icon" href="icon.png">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="bootstrap-icons/font/bootstrap-icons.min.css">
+        <title>Eric O'Callaghan</title>
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+        <style>
+            @font-face { font-family: 'Permanent Marker'; src: local('Permanent Marker'), local('PermanentMarker'), local('Permanent Marker Regular'), local('PermanentMarker-Regular'), url('logo.woff') format('woff'), url('logo.woff2') format('woff2'), url('logo.ttf') format('truetype'); }
+            body { font-family: 'Open Sans', sans-serif; }
+            h1, header, header a:link, header a:visited  { color: #4682B4; font-family: 'Permanent Marker', cursive; font-size: 2rem; }
+            #logo, a:link, header a:hover, header a:active { color: #0096FF; text-decoration: none; }
+            a:active, a:hover { color: #4682B4; text-decoration: underline; }
+            a:visited { color: #4682B4; text-decoration: none; }
+            nav ul { list-style: none; padding: 0; text-align: center; word-spacing: 2em; }
+            nav li, footer li { display: inline; }
+            body { margin: auto; width: 80vw; background-color: #323639; color: #d6d6d7; }
+            h4 { font-style: italic; }
+            summary::marker { color: #d6d6d7; }
+            summary::-webkit-details-marker { color: #d6d6d7; }
+            .anchor-link {
+                padding: 0 .175rem;
+                font-weight: 400;
+                color: #4682B4;
+                text-decoration: none;
+                opacity: 0;
+                transition: color 0.15s ease-in-out,opacity 0.15s ease-in-out;
+            }
+            :target>.anchor-link {
+                border-color: #0096FF;
+                border-radius: 0.5rem;
+                border-style: solid;
+                border-width: 0.15rem;
+            }
+            main li a[target="_blank"]::after { margin-left: 0.25rem; content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==); filter: invert(0.5); }
+            @media (prefers-reduced-motion: reduce) { .anchor-link { transition: none } }
+            .anchor-link::after { color: #4682B4; }
+            .anchor-link:focus, .anchor-link:hover, :hover>.anchor-link, :target>.anchor-link {
+                color: #0d6efd;
+                text-decoration: none;
+                opacity: 1
+            }
+        </style>
     </head>
     <body>
-        <header>
-            <h1 title="Eric O'Callaghan">
-                <a href="/"><span id="logo">Eric O'C</span>allaghan</a>
-            </h1>
+        <header class="navbar navbar-dark navbar-nav text-center">
+            <nav class="container-fluid row">
+                <ul class="col">
+                    <li>
+                        <a class="bi bi-github navbar-text" href="https://github.com/ericoc/" target="_blank" title="GitHub: ericoc"></a>
+                    </li>
+                    <li>
+                        <a class="bi bi-envelope navbar-text" href="mailto:eric@ericoc.com" target="_blank" title="E-mail: eric@ericoc.com"></a>
+                    </li>
+                    <li>
+                        <a class="bi bi-linkedin navbar-text" href="https://www.linkedin.com/in/ericoc/" target="_blank" title="LinkedIn: ericoc"></a>
+                    </li>
+                </ul>
+                <h1 class="col navbar-brand">
+                    <a class="navbar-text" href="/" title="Eric O'Callaghan"><span id="logo">Eric O'C</span>allaghan</a>
+                </h1>
+                <ul class="col">
+                    <li>
+                        <a class="bi bi-filetype-docx navbar-text" href="ericoc_resume.docx" target="_blank" title="DOCX"></a>
+                    </li>
+                    <li>
+                        <a class="bi bi-filetype-pdf navbar-text" href="ericoc_resume.pdf" target="_blank" title="PDF"></a>
+                    </li>
+                    <li>
+                        <a class="bi bi-filetype-txt navbar-text" href="ericoc_resume.txt" target="_blank" title="TXT"></a>
+                    </li>
+                </ul>
+            </nav>
         </header>
-        <main class="error">
-            <h2 id="403" title="403 Forbidden">403 Forbidden</h2>
-            <p>Unfortunately, access to that resource is forbidden</p>
+        <main class="text-center m-5" id="error">
+            <h2 id="403" title="403 Forbidden"><code>403 Forbidden</code></h2>
+            <p class="lead m-5" title="Unfortunately, access to that resource is forbidden.">
+                Access to that resource is <b>forbidden</b>.
+            </p>
         </main>
     </body>
 </html>
